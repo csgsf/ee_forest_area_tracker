@@ -1,6 +1,6 @@
 # ee_burn_tracker
 
-<img width="900" alt="Screenshot 2023-05-11 at 3 48 17 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/bdf2bba9-e554-4faf-8182-bde0a1c39f3c">
+<img width="800" alt="Screenshot 2023-05-11 at 3 48 17 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/bdf2bba9-e554-4faf-8182-bde0a1c39f3c">
 
 
 This documentation relates to the OS tool - OSINT Burned Area Tracker. The tool has been created for researchers, investigators, and journalists to study areas which have been impacted by fires or the destruction of lands. 
