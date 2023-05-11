@@ -2,7 +2,7 @@
 
 This documentation relates to the OS tool - OSINT Burned Area Tracker. The tool has been created 
 
- [GitHub Pages]([(https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2]).
+ [GitHub Pages](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2).
 
 
 
