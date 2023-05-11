@@ -25,6 +25,8 @@ The application imports data from [Sentinel-2](https://developers.google.com/ear
 
 ### How accurate is this map and calculation?
 
+### How were the predefined regions chosen?
+
 ### Other features 
 
 
