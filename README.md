@@ -33,6 +33,15 @@ Imagine you want to analyse the impact of a fire in a forest. You could take a s
 
 This is the method deployed in the OSINT Burned Area Tracker. For your best chance of success, choose a date range that will include a number of images for the most precise measurement. 
 
+### What are dNBR classes?
+
+dNBR stands for Delta Normalized Burn Ratio. 
+
+For the creation of this application, I drew significantly on the [UN's best practices](https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/burn-severity-earth-engine) for studying burned areas.
+
+It states: "The Normalized Burn Ratio (NBR) is used, as it was designed to highlight burned areas and estimate burn severity. It uses near-infrared (NIR) and shortwave-infrared (SWIR) wavelengths. Healthy vegetation before the fire has very high NIR reflectance and a low SWIR response. In contrast, recently burned areas have a low reflectance in the NIR and high reflectance in the SWIR band."
+
+Delta simply means difference. So, the difference in NBR between the before and after collections.
 
 ### Using Sentinel-2 to track burned areas
 
