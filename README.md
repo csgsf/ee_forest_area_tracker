@@ -107,3 +107,12 @@ Fires that are present during a time period might not relate directly to an affe
 
 <img width="600" alt="Screenshot 2023-05-11 at 7 25 11 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/ad383d8d-688c-4f36-8d5e-1d955649330f">
 
+### Resources
+
+The [Eyes on Russia](https://eyesonrussia.org/) map can be used for identifying environmental damage in Ukraine. 
+
+[Greenpeace](https://maps.greenpeace.org/maps/gpcee/ukraine_damage_2022/) also has map that includes incidences in Ukraine. 
+
+The [Bellingcat](https://ukraine.bellingcat.com/) map includes incidences incidences of civilian harm. 
+
+
