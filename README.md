@@ -1,5 +1,17 @@
 # ee_burn_tracker
 
+
+- The Basics - how to use the tool
+- What is a "Before and After" collection?
+- What are dNBR classes?
+- Using Sentinel-2 to track burned areas
+- How do we remove bodies of water from the map?
+- How do we account for cloudy images?
+- How accurate is this map and calculation?
+- How were the predefined regions chosen?
+- Fire data
+- Resources
+
 <img width="800" alt="Screenshot 2023-05-11 at 3 48 17 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/bdf2bba9-e554-4faf-8182-bde0a1c39f3c">
 
 
@@ -108,6 +120,8 @@ Fires that are present during a time period might not relate directly to an affe
 <img width="600" alt="Screenshot 2023-05-11 at 7 25 11 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/ad383d8d-688c-4f36-8d5e-1d955649330f">
 
 ### Resources
+
+When using the tool, I would suggest corresponding incidences that have been mapped with other organizations to see how extensive the damage is. 
 
 The [Eyes on Russia](https://eyesonrussia.org/) map can be used for identifying environmental damage in Ukraine. 
 
