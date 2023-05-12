@@ -12,6 +12,20 @@ With Google Earth Engine, investigators can make use of satellites' remote sensi
 
 The OSINT Burned Area Tracker uses specific parameters that reveal the extent of burned areas. The tool was initially created to study the impact of Russia's invasion on Ukraine and its environmental impact, but it can be applied to any region around the world (you just have to know the coordinates!).
 
+
+### The Basics – how to use the tool
+
+To use this tool, input a range of dates that you would like to collect that will act as one composite before collection. Then, choose a range of dates to compare with. 
+
+For example, perhaps I would like to compare July, 2020 with August 2020. I would put: 2020-07-01 & 2020-07-31; 2020-08-01 & 2020-08-31. This will compare the change that has occured on land between these two time frames. 
+
+Choose a location either by entering coordinates, clicking on your chosen location on the map (which fills the coordinates box), or select a pre-determined region in Ukraine. 
+
+Click "Analyze"!
+
+### What is a "Before" and "After" collection?
+
+
 ### Using Sentinel-2 to track burned areas
 
 The application imports data from [Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2), a collection available on Google Earth Engine. 
@@ -46,7 +60,6 @@ print('Number of Sentinel-2 images:', count);
 ```
 
 
-### What is a "Before" and "After" collection?
 
 ### How do we remove bodies of water from the map?
 
