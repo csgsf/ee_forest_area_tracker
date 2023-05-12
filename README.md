@@ -16,9 +16,13 @@ The OSINT Burned Area Tracker uses specific parameters that reveal the extent of
 
 The application imports data from [Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2), a collection available on Google Earth Engine. 
 Using Sentinel-2 imagery, it's possible to selects [bands](https://gisgeography.com/sentinel-2-bands-combinations/) that allow researchers to focus on particular changes on land. This application selects bands which can account for losses in vegetation and tree canopy. 
+
 A satellite image features multiple bands. Each band represents a range of wavelengths that the satellite sensor is capable of detecting.
+
 Sentinel-2 data collections began 23-06-2015, and is collected around every five days, depending on the location on Earth. 
+
 It might be useful to know how many images have been collected in your area of interest. 
+
 You can copy and paste the code below into the [Google Earth Engine code editor](https://code.earthengine.google.com/) and it will print how many times images in a given time period and across and an area were captured. If you haven't already, it's possible to sign up for a Google Earth Engine developer account. 
 
 ```
