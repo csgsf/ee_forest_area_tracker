@@ -16,6 +16,26 @@ The OSINT Burned Area Tracker uses specific parameters that reveal the extent of
 
 The application imports data from [Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2), a collection available on Google Earth Engine. 
 
+```
+// Define the region of interest
+var roi = geometry;// Define the region of interest
+
+// Define the time range of interest
+var startDate = ee.Date('2019-01-01');
+var endDate = ee.Date('2022-05-11');
+
+// Load the Sentinel-2 image collection
+var s2 = ee.ImageCollection('COPERNICUS/S2_SR')
+        .filterDate(startDate, endDate)
+        .filterBounds(roi);
+
+// Calculate the number of images
+var count = s2.size();
+
+// Print the number of images
+print('Number of Sentinel-2 images:', count);
+```
+
 
 ### What is a "Before" and "After" collection?
 
