@@ -76,15 +76,23 @@ I have done this by layering over the [Hansen Forests dataset](https://developer
 
 When you choose an area of interest, you will see that bodies of water are automatically excluded from the analysis. 
 
-### How do we account for cloud images?
+### How do we account for cloudy images?
+
+Clouds in images can create problems when collecting remote sensing data. The solution, as implemented in this tool, is to mask out pixels that feature clouds. The hope is you collect enough images that you get the fullest dataset despite the presence of clouds. 
+
+Sentinel-2 has bands that can detect clouds. 
 
 ### How accurate is this map and calculation?
 
+This application is to assist with investigation and discovery of burned areas. The accuracy of the calculations can by affected by the amount of images collected and the presence of clouds. There are tons of great earth scientists out there I would reach out to if you want to use these methods for news publication or academic papers. 
+
 ### How were the predefined regions chosen?
+
+This tool was initially created to study environmental areas in Ukraine. The areas included are designated by the Ukrainian government as environmentally protected areas. The examples chosen to feature in the tool featured the highest frequency of Modis fires in the first year of Russia's full-scale invasion of Ukraine. 
 
 ### Fire data
 
-### Other features 
+This tool has a second layer which shows Modis fire data. Toggle this layer on, and it will show the fires that have been detected during the chosen time period. 
 
-
+<img width="600" alt="Screenshot 2023-05-11 at 7 25 11 PM" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/ad383d8d-688c-4f36-8d5e-1d955649330f">
 
