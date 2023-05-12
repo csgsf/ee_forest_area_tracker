@@ -6,7 +6,7 @@
 
 This documentation relates to the OS tool - OSINT Burned Area Tracker. The tool has been created for researchers, investigators, and journalists to study areas which have been impacted by fires or the destruction of lands. 
 
-While true color imagery (images of buildings or forests in their natural color) are widely used in open-source investigations, there is opportunity to use remote sensing data for more detailed investigation. 
+While true color imagery (images of buildings or forests in their natural color) are widely used in open-source investigations, there are opportunities to use remote sensing data for more detailed investigations. 
 
 With Google Earth Engine, investigators can make use of satellites' remote sensing data to study specific characteristic, such as vegatation, temperature, and changes in the built environment. 
 
@@ -24,6 +24,14 @@ Choose a location either by entering coordinates, clicking on your chosen locati
 Click "Analyze"!
 
 ### What is a "Before" and "After" collection?
+
+Before and after satellite images are now a common feature of open-sources journalism. I used this technique for an article on the BBC to analyse the destruction of an [ammunitions depot in Equatorial Guinea](https://www.bbc.com/news/world-africa-56337856). 
+
+When using remote sensing data, we can utilize this "before and after" method even more. 
+
+Imagine you want to analyse the impact of a fire in a forest. You could take a snapshot on one day before and after the fire – or you could collected images for the whole month before the fire, then reduce those images into one and average out the presence of trees and compare this with a month after the blaze. This is a much more precise method. 
+
+This is the method deployed in the OSINT Burned Area Tracker. For your best chance of success, choose a date range that will include a number of images for the most precise measurement. 
 
 
 ### Using Sentinel-2 to track burned areas
@@ -60,14 +68,21 @@ print('Number of Sentinel-2 images:', count);
 ```
 
 
-
 ### How do we remove bodies of water from the map?
+
+For this application, I have eliminated water bodies from the analysis. These areas are not relevant for the study of burned areas. 
+
+I have done this by layering over the [Hansen Forests dataset](https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2021_v1_9#bands), which includes a band that eliminates water areas. 
+
+When you choose an area of interest, you will see that bodies of water are automatically excluded from the analysis. 
 
 ### How do we account for cloud images?
 
 ### How accurate is this map and calculation?
 
 ### How were the predefined regions chosen?
+
+### Fire data
 
 ### Other features 
 
