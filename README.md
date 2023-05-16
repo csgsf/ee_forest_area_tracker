@@ -113,7 +113,7 @@ This tool was initially created to study environmental areas in Ukraine. The are
 
 ### Fire data
 
-This tool has a second layer which shows Modis fire data. Toggle this layer on, and it will show the fires that have been detected during the chosen time period.
+This tool has a second layer which shows Modis fire data. Toggle this layer on, and it will show the fires that have been detected during time from the start of the collection to the end of the "after" collection. It doesn't get a before and after count - but shows all fires during that time. 
 
 Fires that are present during a time period might not relate directly to an affected area - as burned areas as detected in the aftermath. 
 
