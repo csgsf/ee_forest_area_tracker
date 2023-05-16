@@ -1,4 +1,4 @@
-# ee_burn_tracker
+# OSINT_damaged_area_tracker
 
 
 - The Basics - how to use the tool
