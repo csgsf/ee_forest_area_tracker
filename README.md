@@ -1,6 +1,7 @@
 # OSINT_forest_area_tracker
 
 
+- Areas
 - The Basics - how to use the tool
 - What is a "Before and After" collection?
 - What are dNBR classes?
@@ -25,7 +26,7 @@ With Google Earth Engine, investigators can make use of satellites' remote sensi
 
 The OSINT Forest Area Tracker uses specific parameters that reveal the extent of burned areas. The tool was initially created to study the impact of Russia's invasion on Ukraine and its environmental impact, but it can be applied to other forest areas around the world (you just have to know the coordinates!).
 
-###
+### Areas
 
 Areas codes from dropdown tool
 
