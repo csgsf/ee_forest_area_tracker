@@ -30,21 +30,37 @@ The OSINT Forest Area Tracker uses specific parameters that reveal the extent of
 Areas codes from dropdown tool
 
 01 - Chernobyl Radition & Environmental Biosphere Reserve
+
 02 - Danube Biosphere Reserve
+
 03 - Ivory Coast of Sviatoslav National Park
+
 04 - Chernobyl Special Reserve 
+
 05 - Black Sea Biosphere Reserve
+
 06 - Mizhrichynskyi Regional Landscape Park
+
 07 - Podilsky Tovtry National Park
+
 08 - Korsunskyi Zoological Reserve
+
 09 - Drevlyansky Reserve
+
 10 - Nizhnyodniprovskyi National Nature Park
+
 11 - Kreminski Kaptazhi Hydrological Reserve
+
 12 - Drevlianskyi Natural Reserve
+
 13 - Savynska Lisova Dacha Reserve
+
 14 - Rivne Nature Reserve
+
 15 - Kinburn Spit Regional Landscape Park
+
 16 - Seymskyi Regional Landscape Park
+
 17 - Svyati Hory National Park
 
 
