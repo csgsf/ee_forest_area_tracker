@@ -62,7 +62,7 @@ KSRLP - Kinburn Spit Regional Landscape Park
 
 SRLP - Seymskyi Regional Landscape Park
 
-SHNP - Sviaty Hory National Park
+SHNP - Svyati Hory National Park
 
 
 ### The Basics – how to use the tool
