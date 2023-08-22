@@ -16,7 +16,7 @@
 <img width="1660" alt="image_1" src="https://github.com/csgsf/ee_burn_tracker/assets/90655137/25c12985-446c-493b-b4cb-bb59345a070a">
 
 
-
+https://osintmapping.users.earthengine.app/view/osint-forest-area-tracker
 
 This documentation relates to the OS tool - OSINT Forest Area Tracker. The tool has been created for researchers, investigators, and journalists to study areas that have been impacted by fires or the destruction of lands. 
 
